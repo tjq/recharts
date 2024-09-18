@@ -31,6 +31,7 @@ export function Surface(props: Props) {
   return (
     <svg
       {...filterProps(others, true, 'svg')}
+      preserveAspectRatio="none"
       className={layerClass}
       width={width}
       height={height}
